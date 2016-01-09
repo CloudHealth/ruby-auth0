@@ -1,0 +1,2 @@
+- Added auth0 api v2 support for rules
+- Most of the changes are ruby 2.x idioms which can be reverted after ruby 2.x upgrade
