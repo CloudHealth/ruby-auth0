@@ -4,6 +4,7 @@ require 'auth0/api/v2/blacklists'
 require 'auth0/api/v2/jobs'
 require 'auth0/api/v2/stats'
 require 'auth0/api/v2/connections'
+require 'auth0/api/v2/rules'
 
 module Auth0
   module Api
@@ -15,6 +16,7 @@ module Auth0
       include Auth0::Api::V2::Jobs
       include Auth0::Api::V2::Stats
       include Auth0::Api::V2::Connections
+      include Auth0::Api::V2::Rules
     end
   end
 end
